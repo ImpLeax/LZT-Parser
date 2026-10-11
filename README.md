@@ -12,6 +12,12 @@ An async Telegram bot that monitors the [LZT Market](https://lzt.market) for CS2
 - Deduplicates listings in PostgreSQL, so each account is posted once; listings that fail to send are retried on the next poll.
 - `/debug` command for the admin to discover chat / topic IDs during setup.
 
+## Example message
+
+<img width="499" height="588" alt="photo_2026-10-11_18-30-42" src="https://github.com/user-attachments/assets/b97023e8-0466-418a-b745-2e0e82ea9eac" />
+
+
+
 ## Tech stack
 
 Python 3.12 · aiogram 3 · SQLAlchemy 2 (async) + asyncpg · PostgreSQL · pydantic-settings · [LOLZTEAM](https://pypi.org/project/lolzteam/) API client · uv · Docker Compose
