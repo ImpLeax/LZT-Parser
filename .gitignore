@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets (keep only the template)
+.env
+.env.*
+!.env.example
+
+# Runtime logs (contain chat/user IDs)
+logs/
+*.log
